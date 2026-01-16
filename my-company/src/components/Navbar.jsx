@@ -14,3 +14,6 @@ function Navbar () {
 }
 
 export default Navbar
+
+
+// "style", "backgroundColor", "display", "justifyContent"

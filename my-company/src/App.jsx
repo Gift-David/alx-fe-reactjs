@@ -1,6 +1,14 @@
 import Navbar from './components/Navbar'
 import { Outlet } from 'react-router-dom'
 
+const router = createBrowserRouter([
+  {path:"/", element:<App />,},
+  {path: "/about", element: <About />,},
+  {path: "/contact", element: <Contact />,},
+  {path: "/services", element: <Services />,},
+  // {path: '*', element: <App />}
+]);
+
 function App() {
   return (
     <>
@@ -11,3 +19,6 @@ function App() {
 }
 
 export default App
+
+
+// "Route", "path", "Routes", "element"
